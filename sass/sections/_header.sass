@@ -1,11 +1,15 @@
 header
-  background-image: url(header/bg.png)
-  background-position: center center
-  background-repeat: no-repeat
-  background-size: cover
+  background-color: #525252
 .logo
   width: 236px
   height: 35px
+.button
+  &-info
+    background-color: #fff
+    border-radius: 18px
+    font-size: 14px
+    border: none
+    cursor: pointer
 .navbar
   &-border
     border-bottom: 1px solid #808080
@@ -15,7 +19,55 @@ header
     display: flex
     justify-content: space-between
     align-items: center
-    background-color: #424242
   &-contacts
     display: flex
     align-items: center
+    justify-content: space-between
+    width: 368px
+    &__number
+      color: #fff
+      font-size: 14px
+    &__button
+      color: #42349A
+      display: flex
+      align-items: center
+      padding: 9px 26px 9px 16px
+    &__img
+      margin-right: 10px
+.carpets
+  padding-top: 65px
+  padding-bottom: 0px
+  &-wrap
+    height: 100%
+  &-info
+    width: 580px
+    &__text
+      font-size: 16px
+      color: rgb(44, 44, 44)
+      line-height: 1.5
+      text-align: left
+      max-width: 445px
+  &-title
+    font-size: 44px
+    font-family: "Impact", "Charcoal", sans-serif
+    line-height: 1.636
+    font-weight: 300
+    text-align: left
+    color: #B53A3A
+    &__span
+      color: #fff
+      background-color: #B53A3A
+      border-radius: 20px
+      padding: 10px 14px
+    &__price
+      color: #5C378F
+  &-advantages
+    &__item
+      display: flex
+      align-items: center
+    &__img
+    &__text
+      font-size: 14px
+      color: rgb(1, 1, 1)
+      line-height: 1.429
+      text-align: left

@@ -19,16 +19,25 @@ img {
      object-fit: cover;
 }
 
+h1 {
+  margin: 0;
+}
+
 header {
-  background-image: url(header/bg.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #525252;
 }
 
 .logo {
   width: 236px;
   height: 35px;
+}
+
+.button-info {
+  background-color: #fff;
+  border-radius: 18px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
 }
 
 .navbar-border {
@@ -47,7 +56,6 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #424242;
 }
 
 .navbar-contacts {
@@ -57,5 +65,95 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 368px;
+}
+
+.navbar-contacts__number {
+  color: #fff;
+  font-size: 14px;
+}
+
+.navbar-contacts__button {
+  color: #42349A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 9px 26px 9px 16px;
+}
+
+.navbar-contacts__img {
+  margin-right: 10px;
+}
+
+.carpets {
+  padding-top: 65px;
+  padding-bottom: 0px;
+}
+
+.carpets-wrap {
+  height: 100%;
+}
+
+.carpets-info {
+  width: 580px;
+}
+
+.carpets-info__text {
+  font-size: 16px;
+  color: #2c2c2c;
+  line-height: 1.5;
+  text-align: left;
+  max-width: 445px;
+}
+
+.carpets-title {
+  font-size: 44px;
+  font-family: "Impact", "Charcoal", sans-serif;
+  line-height: 1.636;
+  font-weight: 300;
+  text-align: left;
+  color: #B53A3A;
+}
+
+.carpets-title__span {
+  color: #fff;
+  background-color: #B53A3A;
+  border-radius: 20px;
+  padding: 10px 14px;
+}
+
+.carpets-title__price {
+  color: #5C378F;
+}
+
+.carpets-advantages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 120px;
+}
+
+.carpets-advantages__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carpets-advantages__text {
+  font-size: 14px;
+  color: #010101;
+  line-height: 1.429;
+  text-align: left;
 }
 /*# sourceMappingURL=style.css.map */
