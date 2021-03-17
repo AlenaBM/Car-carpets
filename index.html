@@ -13,7 +13,7 @@
     <title>Тюнинг Коврик. Автомобильные 3D-коврики</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <section class="navbar">
         <div class="container">
           <div class="navbar-wrap">
@@ -27,6 +27,7 @@
                 />
                 <span class="navbar-contacts__text">+7 (960) 954 58-47</span>
               </div>
+              <!-- /.navbar-contacts__number -->
               <button class="navbar-contacts__button button-info">
                 <img
                   src="header/keyboard.svg"
@@ -36,7 +37,6 @@
                 Перезвоните мне
               </button>
               <!-- /.navbar-contacts__button -->
-              <!-- /.navbar-contacts__number -->
             </div>
             <!-- /.navbar-contacts -->
           </div>
@@ -50,7 +50,7 @@
       <section class="carpets container">
         <div class="carpets-wrap">
           <div class="carpets-info">
-            <h1 class="carpets-title">
+            <h1 class="carpets-title carpets-title_heading">
               <span class="carpets-title__span">Автомобильные 3D-коврики</span>
               из эко-кожи
               <span class="carpets-title__price">от 4500 рублей</span>
@@ -59,7 +59,7 @@
               >Создайте уют и комфорт в своём автомобиле и навсегда избавьтесь
               от луж и мусора под ногами</span
             >
-            <div class="carpets-advantages">
+            <div class="carpets-advantages carpets-advantages_block">
               <div class="carpets-advantages__item">
                 <img
                   src="header/car.svg"
@@ -106,10 +106,45 @@
               <!-- /.carpets-advantages__item -->
             </div>
             <!-- /carpets-advantages -->
-            <div></div>
+            <div class="carpets-footer">
+              <span class="carpets-footer__text">Следуйте за нами:</span>
+              <a href="" class="carpets-footer__link">
+                <i class="fab fa-vk carpets-footer__link--icon"></i>
+              </a>
+              <a href="" class="carpets-footer__link">
+                <i
+                  class="fab fa-facebook-square carpets-footer__link--icon"
+                ></i>
+              </a>
+              <a href="" class="carpets-footer__link">
+                <i class="fab fa-instagram carpets-footer__link--icon"></i>
+              </a>
+              <a href="" class="carpets-footer__link">
+                <span class="carpets-footer__link--icon">drive2</span>
+              </a>
+            </div>
+            <!-- /.carpets-footer -->
           </div>
           <!-- /.carpets-info -->
-          <div class="carpets-photos"></div>
+          <div class="carpets-photos carpets-photos_block">
+            <span class="carpets-photos__text"
+              >Подберите 3D-коврик для вашего авто за 4 простых шага и получите
+              дополнительную скидку в 14 %</span
+            >
+            <div class="carpets-photos__slide">
+              <img
+                src="header/car-carpet.png"
+                alt="Автомобильный коврик"
+                class="carpets-photos__slide__img"
+              />
+            </div>
+            <!-- /.carpets-photos__slide -->
+            <button class="carpets-photos__button button-info">
+              <i class="fas fa-gift"></i>
+              Подобрать коврик и получить подарок
+            </button>
+            <!-- /.navbar-contacts__button -->
+          </div>
           <!-- /.carpets-photos -->
         </div>
         <!-- /.carpets-wrap -->
