@@ -1,4 +1,4 @@
-// Медиа-запросы
+// Медиа-запросы 
 
 // до 1200px
 
@@ -10,4 +10,142 @@
 
 // — от 320 до 480px
 
-@media (min-width: 1200px)
+@media ( max-width: 1350px )
+  .container
+    width: 86%
+  .navbar
+    &-contacts
+      width: 335px
+  .carpets
+    &-title
+      font-size: 41px
+      text-align: left
+    &-advantages
+      column-gap: 40px
+@media ( max-width: 1200px )
+  .navbar
+    &-contacts
+      width: 220px
+      &__span
+        display: none
+  .carpets
+    padding-top: 48px
+    &-info
+      width: 430px
+    &-photos
+      width: 290px
+      &::after
+        height: 280px
+        top: 84px
+      &__slide
+        width: 300px
+        height: 200px
+      &__text
+        font-size: 12px
+      &_block
+        margin-right: 0
+      &__button
+        font-size: 12px
+    &-title
+      font-size: 32px
+      &_heading
+        margin-bottom: 40px
+    &-advantages
+      &__item
+        align-items: flex-start
+        width: 170px
+      &__text
+        font-size: 12px
+@media ( max-width: 992px )
+  .container
+    max-width: 750px
+  .header
+    background-position: right
+  .navbar
+    &-wrap
+      width: 100%
+  .carpets
+    padding-top: 70px
+    &-wrap
+      flex-direction: column
+    &-info
+      background-color: rgba(255, 255, 255, 0.4)
+      border-radius: 10px
+      width: 100%
+      display: flex
+      flex-direction: column
+      align-items: center
+      position: relative
+      padding-top: 150px
+      &__text
+        text-align: center
+    &-photos
+      width: 100%
+      &::after
+        height: 360px
+        top: 87px
+      &__text
+        display: inline-block
+        width: 400px
+        margin-top: 20px
+      &__slide
+        width: 400px
+        height: 300px
+    &-title
+      font-size: 45px
+      text-align: center
+      width: 600px
+      &_heading
+        position: absolute
+        top: -30px
+// @media ( max-width: 768px )
+@media ( max-width: 576px )
+  .navbar
+    &-wrap
+      flex-direction: column
+      justify-content: space-between
+      padding-bottom: 10px
+    &-contacts
+      &_block
+        margin-top: 15px
+  .carpets
+    &-title
+      width: 400px
+      font-size: 28px
+    &-info
+      padding-top: 100px
+      &__text
+        margin-bottom: 40px
+    &-advantages
+      &_block
+        margin-bottom: 40px
+    &-photos
+      &__button
+        width: 100%
+        font-size: 15px
+@media ( min-width: 320px ) and ( max-width: 480px)
+  .container
+    width: 300px
+  .carpets
+    &-advantages
+      display: flex
+      flex-direction: column
+    &-info
+      width: 300px
+      padding-top: 60px
+      &__text
+        width: 270px
+    &-photos
+      &::after
+        top: 105px
+        height: 300px
+      &__button
+        font-size: 13px
+      &__text
+        width: 300px
+      &__slide
+        width: 300px
+        height: 200px
+    &-title
+      width: 300px
+      font-size: 21px

@@ -27,16 +27,9 @@ a {
   text-decoration: none;
 }
 
-@media (max-width: 1200px) {
-  .container {
-    background-color: #000;
-  }
-}
-
 .header {
   background-image: url(/header/bg.png);
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
@@ -296,5 +289,211 @@ a {
   line-height: 1.5;
   text-align: center;
   margin-bottom: 30px;
+}
+
+@media (max-width: 1350px) {
+  .container {
+    width: 86%;
+  }
+  .navbar-contacts {
+    width: 335px;
+  }
+  .carpets-title {
+    font-size: 41px;
+    text-align: left;
+  }
+  .carpets-advantages {
+    -webkit-column-gap: 40px;
+            column-gap: 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .navbar-contacts {
+    width: 220px;
+  }
+  .navbar-contacts__span {
+    display: none;
+  }
+  .carpets {
+    padding-top: 48px;
+  }
+  .carpets-info {
+    width: 430px;
+  }
+  .carpets-photos {
+    width: 290px;
+  }
+  .carpets-photos::after {
+    height: 280px;
+    top: 84px;
+  }
+  .carpets-photos__slide {
+    width: 300px;
+    height: 200px;
+  }
+  .carpets-photos__text {
+    font-size: 12px;
+  }
+  .carpets-photos_block {
+    margin-right: 0;
+  }
+  .carpets-photos__button {
+    font-size: 12px;
+  }
+  .carpets-title {
+    font-size: 32px;
+  }
+  .carpets-title_heading {
+    margin-bottom: 40px;
+  }
+  .carpets-advantages__item {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 170px;
+  }
+  .carpets-advantages__text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+  .header {
+    background-position: right;
+  }
+  .navbar-wrap {
+    width: 100%;
+  }
+  .carpets {
+    padding-top: 70px;
+  }
+  .carpets-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .carpets-info {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    padding-top: 150px;
+  }
+  .carpets-info__text {
+    text-align: center;
+  }
+  .carpets-photos {
+    width: 100%;
+  }
+  .carpets-photos::after {
+    height: 360px;
+    top: 87px;
+  }
+  .carpets-photos__text {
+    display: inline-block;
+    width: 400px;
+    margin-top: 20px;
+  }
+  .carpets-photos__slide {
+    width: 400px;
+    height: 300px;
+  }
+  .carpets-title {
+    font-size: 45px;
+    text-align: center;
+    width: 600px;
+  }
+  .carpets-title_heading {
+    position: absolute;
+    top: -30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-bottom: 10px;
+  }
+  .navbar-contacts_block {
+    margin-top: 15px;
+  }
+  .carpets-title {
+    width: 400px;
+    font-size: 28px;
+  }
+  .carpets-info {
+    padding-top: 100px;
+  }
+  .carpets-info__text {
+    margin-bottom: 40px;
+  }
+  .carpets-advantages_block {
+    margin-bottom: 40px;
+  }
+  .carpets-photos__button {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    width: 300px;
+  }
+  .carpets-advantages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .carpets-info {
+    width: 300px;
+    padding-top: 60px;
+  }
+  .carpets-info__text {
+    width: 270px;
+  }
+  .carpets-photos::after {
+    top: 105px;
+    height: 300px;
+  }
+  .carpets-photos__button {
+    font-size: 13px;
+  }
+  .carpets-photos__text {
+    width: 300px;
+  }
+  .carpets-photos__slide {
+    width: 300px;
+    height: 200px;
+  }
+  .carpets-title {
+    width: 300px;
+    font-size: 21px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
